@@ -168,6 +168,7 @@ template <class T> typename DblList<T>::ChainIterator DblList<T>::begin()
 {
     return ChainIterator(first->right);
 }
+p = p->right;
 
 template <class T> typename DblList<T>::ChainIterator DblList<T>::end()
 {
